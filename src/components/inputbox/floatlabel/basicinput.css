@@ -1,0 +1,10 @@
+
+.inputbasic input:-webkit-autofill,
+.inputbasic input:-webkit-autofill:hover,
+.inputbasic input:-webkit-autofill:focus,
+.inputbasic input:-webkit-autofill:active {
+    /* -webkit-box-shadow: 0 0 0 30px rgb(255, 255, 255) inset !important;
+    background-color: rgb(246, 252, 255) ; */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: #000000;
+}

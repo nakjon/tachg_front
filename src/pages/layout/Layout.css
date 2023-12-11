@@ -1,0 +1,71 @@
+
+.div-main a {
+    color: whitesmoke;
+    letter-spacing: 1px;
+}
+
+.div-main a:hover {
+    color: rgb(0, 0, 0);
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .menu li {
+    position: relative;
+  }
+  
+  .menu li a {
+    display: block;
+  }
+  .submenu li a {
+    display: block;
+    color: rgb(3, 153, 131);
+    outline-color: rgb(3, 153, 131);
+  }
+  
+  .submenu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #ffffff;
+    padding: 10px;
+  }
+  .spanSub{  
+      color :'white';
+      cursor:'pointer'   
+  }
+  
+  .menu li:hover .submenu {
+    display: block;
+  }
+
+  @media (max-width: 768px) {
+    /* Styles for devices with a maximum width of 768px (e.g., mobile phones) */
+    .foot-text{
+     text-align: left;
+     font-size: x-small;
+    }
+  }
+  
+  @media (min-width: 769px) and (max-width: 1024px) {
+    /* Styles for devices with a minimum width of 769px and maximum width of 1024px (e.g., tablets) */
+    .foot-text {
+      text-align: left;
+      font-size: x-small;
+    }
+  }
+  
+  @media (min-width: 1025px) {
+    /* Styles for devices with a minimum width of 1025px (e.g., desktops) */
+    .foot-text {
+      text-align: left;
+      font-size: large;
+    }
+  }
+
+ 
